@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentSize</key>
+	<string>{520, 300}</string>
+	<key>FrameAutosaveName</key>
+	<string>IPXPreferencesPanelFrame</string>
+	<key>PreferencePanels</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>IPXGeneralPreferences</string>
+			<key>IconIndex</key>
+			<integer>0</integer>
+			<key>Identifier</key>
+			<string>IPXGeneralPreferences</string>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>IPXiCloudPreferences</string>
+			<key>IconIndex</key>
+			<integer>0</integer>
+			<key>Identifier</key>
+			<string>IPXiCloudPreferences</string>
+		</dict>
+	</array>
+	<key>UsesButtons</key>
+	<string>0</string>
+</dict>
+</plist>

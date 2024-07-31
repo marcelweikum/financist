@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>defined_types</key>
+	<dict>
+		<key>com.apple.photos.album-object</key>
+		<dict>
+			<key>name</key>
+			<string>Photos Album</string>
+		</dict>
+		<key>com.apple.photos.folder-object</key>
+		<dict>
+			<key>name</key>
+			<string>Photos Folder</string>
+		</dict>
+		<key>com.apple.photos.item-object</key>
+		<dict>
+			<key>name</key>
+			<string>Photos Item</string>
+		</dict>
+		<key>com.apple.photos.mediaitem-object</key>
+		<dict>
+			<key>name</key>
+			<string>Photos Media Item</string>
+		</dict>
+		<key>com.apple.photos.slideshow-object</key>
+		<dict>
+			<key>name</key>
+			<string>Photos slideshow</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

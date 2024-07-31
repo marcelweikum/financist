@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FormatString</key>
+		<string>%u %i</string>
+		<key>Name</key>
+		<string>Custom Name with Index</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%u%i</string>
+		<key>Name</key>
+		<string>Custom Name with Index (no spaces)</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%n</string>
+		<key>Name</key>
+		<string>Version Name</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%n - %d at %t</string>
+		<key>Name</key>
+		<string>Version Name and Date/Time</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%n (%s)</string>
+		<key>Name</key>
+		<string>Version Name with Sequence</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%n %i</string>
+		<key>Name</key>
+		<string>Version Name with Index</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%d at %t</string>
+		<key>Name</key>
+		<string>Image Date/Time</string>
+	</dict>
+	<dict>
+		<key>FormatString</key>
+		<string>%u %c</string>
+		<key>MinimumNumberOfDigits</key>
+		<integer>3</integer>
+		<key>Name</key>
+		<string>Custom Name with Counter</string>
+		<key>StartingCounterNumber</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

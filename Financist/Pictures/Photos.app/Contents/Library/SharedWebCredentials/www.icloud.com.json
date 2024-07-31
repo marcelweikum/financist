@@ -1,0 +1,19 @@
+{
+  "applinks": {
+      "substitutionVariables": {
+          "path_variants": [ "redford/sps", "photostream/join" ],
+      },
+      "details": [
+           {
+             "appIDs": [ "F9L2L89K5X.com.apple.Photos" ],
+             "components": [
+               {
+                  "/": "/$(path_variants)/",
+                  "?": { "invitation_id": "?*" }
+               }
+             ],
+			 "alwaysEnabled": true
+           }
+       ],
+   }
+}

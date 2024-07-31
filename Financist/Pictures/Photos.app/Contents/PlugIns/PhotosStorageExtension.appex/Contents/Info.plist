@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>20A241133</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Photos</string>
+	<key>CFBundleExecutable</key>
+	<string>PhotosStorageExtension</string>
+	<key>CFBundleIconFile</key>
+	<string>PhotosApplicationIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.Photos.StorageManagementExtension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PhotosStorageExtension</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>7.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>460.0.120</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>21G56</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>12.5</string>
+	<key>DTSDKBuild</key>
+	<string>21G56</string>
+	<key>DTSDKName</key>
+	<string>macosx12.5.internal</string>
+	<key>DTXcode</key>
+	<string>1330</string>
+	<key>DTXcodeBuild</key>
+	<string>13E6049a</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.5</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.storagemanagement</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>StorageManagementExtension</string>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Apple Inc. All rights reserved.</string>
+</dict>
+</plist>

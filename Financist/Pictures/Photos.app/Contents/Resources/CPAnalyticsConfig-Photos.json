@@ -1,0 +1,68 @@
+{
+    "destinations": [
+        {
+            "name": "devLogging",
+            "enabled": true,
+            "config": {},
+        }, {
+            "name": "metricsDestination",
+            "enabled": true,
+            "config": {
+            },
+        }, {
+            "name": "signpost",
+            "enabled": true,
+            "config": {},
+        }, {
+            "name": "appState",
+            "enabled": true,
+            "config": {
+                "counters": [
+                ],
+                "trackViews": [
+                    "IPXFeedViewController",
+                ],
+                "ignoreViews": [
+                ],
+                "maxPriorViews": 10,
+                "appEvents": [
+                    "com.apple.photos.CPAnalytics.sharedAlbumsActivityFeedPostLiked",
+                    "com.apple.photos.CPAnalytics.sharedAlbumsActivityFeedPostUnliked",
+                    "com.apple.photos.CPAnalytics.places.locationAction",
+                ],
+            },
+        }, {
+            "name": "interval",
+            "enabled": true,
+            "config": {
+                "trackIntervals": [
+                ],
+                "ignoreIntervals": [
+                ],
+            },
+        }, {
+            "name": "log",
+            "enabled": true,
+            "config": {
+                "logEvents": [
+                    {
+                        "label": "App event",
+                        "shouldLogEventName": true,
+                        "properties": {
+                            "cpa_isAppEvent": true,
+                        },
+                    }, {
+                        "label": "View did appear",
+                        "eventPropertiesToLog": [
+                            "className",
+                        ],
+                        "key": "com.apple.photos.CPAnalytics.viewDidAppear",
+                        "properties": {
+                            "cpa_isTrackedScreenView": true,
+                        },
+                    },
+                ],
+            },
+        }
+    ],
+}
